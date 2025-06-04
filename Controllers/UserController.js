@@ -49,7 +49,7 @@ export const Creatuser = async (req, res, next) => {
 
     } catch (error) {
         console.log(error);
-        res.status(500).send({ error: 'Internal server error' });
+        res.status(500).send({ error: 'Internal server error',error });
     }
 }
 
